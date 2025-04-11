@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>view tambah barang</title>
 </head>
 <body>
     <div class="container">
-        <h1>Tambah Data Barang</h1>
+        <h1><i class="fa-regular fa-cart-plus"></i> Tambah Data Barang</h1>
         <form action="proses_tambah.php" method="post">
             <div class="mb-3">
                 <label for="" class="form-labe;">id_barang</label>
